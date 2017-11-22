@@ -4,6 +4,12 @@
 <title>The Jake Huxell Dot Com</title>
 </head>
 <body>
+	<div id="game"></div>
 	<script src="js/plugins/crafty.js"> </script>
+	<script src="js/scenes/mainScene.js"></script>
+	<script>
+		Crafty.init(500, 350, document.getElementById('game'));
+		Crafty.enterScene(sceneName_loading);
+	</script>
 </body>
 </html> 

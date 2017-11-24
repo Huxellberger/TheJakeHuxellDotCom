@@ -1,0 +1,5 @@
+const Linkable = {
+    name : "Linkable"
+};
+
+Crafty.c(Linkable.name)

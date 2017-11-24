@@ -8,7 +8,7 @@
 	<script src="js/plugins/crafty.js"> </script>
 	<script src="js/scenes/mainScene.js"></script>
 	<script>
-		Crafty.init(500, 350, document.getElementById('game'));
+		Crafty.init(window.screen.availHeight, window.screen.availWidth, document.getElementById('game'));
 		Crafty.enterScene(MainScene.sceneName_Main);
 	</script>
 </body>

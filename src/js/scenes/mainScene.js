@@ -5,5 +5,7 @@ const MainScene = {
 };
 
 Crafty.defineScene(MainScene.sceneName_Main, function(){
-		Crafty.background(MainScene.sceneColour_Main);
+    Crafty.background(MainScene.sceneColour_Main);
+    Crafty.e("2D, Canvas, Color, Chatter, Linkable")
+        .color("#FFFFFF");
 });

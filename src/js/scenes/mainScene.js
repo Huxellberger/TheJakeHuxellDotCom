@@ -1,6 +1,8 @@
 
-let sceneName_loading = "loading";
+const MainScene = {
+		sceneName_Main : "Main"
+};
 
-Crafty.defineScene(sceneName_loading, function(){
+Crafty.defineScene(MainScene.sceneName_Main, function(){
 		Crafty.background("#000");
 });

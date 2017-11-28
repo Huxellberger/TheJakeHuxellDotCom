@@ -1,0 +1,10 @@
+const Chatter {
+    name : "Chatter"
+};
+
+Crafty.c(Chatter.name, {
+
+    displayText : "Text not Set!",
+    
+    
+});

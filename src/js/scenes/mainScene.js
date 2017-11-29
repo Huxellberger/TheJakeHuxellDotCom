@@ -4,7 +4,7 @@ const MainScene = {
 		scene_assets : {
 				"sprites": {
 						
-						"../../sprites/PlaceholderCat.png": {
+						"../../cat_sprite.png": {
 								tile: 140,
 								tileh: 140,
 
@@ -21,7 +21,7 @@ Crafty.defineScene(MainScene.sceneName_Main, function(menuData){
 		Crafty.background("#000");
 		
 		Crafty.load(MainScene.scene_assets, function(){
-				let cat = Crafty.e("2D", "Canvas", "cat_normal")
-						.attr({x:10, y:10});
+				var actual_size = Crafty.e("2D, Canvas, cat_normal")
+						.attr({x: 10, y:10});
 		});
 });
